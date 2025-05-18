@@ -1,12 +1,19 @@
 [project]
 name = "itmo-timeseries"
 version = "0.1.0"
-description = ""
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "~=3.12"
 dependencies = [
+    "ipykernel>=6.29.5",
     "matplotlib>=3.10.3",
-    "numpy>=2.2.5",
+    "numpy<2",
     "pandas>=2.2.3",
+    "pip>=25.1.1",
+    "pmdarima>=2.0.4",
+    "prophet>=1.1.6",
+    "scikit-learn>=1.6.1",
+    "scipy<1.15",
     "seaborn>=0.13.2",
+    "sktime>=0.37.0",
+    "statsmodels>=0.14.4",
 ]
